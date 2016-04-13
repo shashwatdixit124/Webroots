@@ -1,0 +1,128 @@
+@font-face 
+
+{
+    font-family: "HACKED";
+    src: url("HACKED.ttf");
+}
+
+@font-face 
+
+{
+    font-family: "font";
+    src: url("font2.ttf");
+}
+
+*{
+	margin:0px;
+}
+
+.plinth1 {
+	position: fixed;
+	z-index: 5;
+	opacity: 0.8;
+	opacity: 0.7;
+	font-family: HACKED;
+	font-size: 140px;
+	text-align: center;
+	color: black;
+	margin-top: 50px;
+	margin-left: 495px;
+	
+}
+.year {
+	position: fixed;
+	z-index: 5;
+	opacity: 0.8;
+	opacity: 0.7;
+	font-family: font;
+	font-size: 30px;
+	color: black;
+	top: 40px;
+	margin-left: 825px;
+	
+}
+.fest {
+	position: fixed;
+	z-index: 5;
+	opacity: 0.8;
+	opacity: 0.7;
+	margin-left: 400px;
+	font-family: font;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	top: 180px;
+	
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+#image {
+	 opacity: 0.5;
+}
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; height:100%; float: left; }
+div#slider figure { 
+  position: fixed;
+  top: 0px;
+  width: 500%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+.imagetop {
+
+	position: fixed;
+	z-index: 3;
+	opacity: 1;
+	top: 65%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -110px; 
+    margin-left: -100px;
+    transition : all 0.2s linear;
+    -webkit-transition : all 0.2s linear;
+    -moz-transition : all 0.2s linear;
+}
+#circle {
+	border-radius: 200px;
+}
+.imagetop:hover {
+	transform: rotate(118deg);
+	-webkit-transform: rotate(118deg);
+	-moz-transform: rotate(118deg);
+}
+.block {
+	z-index: 10;
+	position: fixed;
+	display: none;
+	font-size: 32px;
+	font-family: font;
+	text-align: center;
+	margin-top: 300px;
+	left: 605px;
+	width: 150px;
+	height: 40px;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+	padding-top: 4px;
+}
+.imagetop:hover + .block {
+	display: block;
+	margin-top: 550px
+}

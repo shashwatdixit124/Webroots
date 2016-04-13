@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>PLINTH | Gallery</title>
+<link rel="stylesheet" type="text/css" href="css/gallery.css">
+</head>
+<body>
+<body>
+	<div class="logo">
+		<img id="plinth" src="logobeta1.jpg" height="100" width="100">
+				
+	</div>
+<div class="navigation">
+<a href="home.html"><span id="home">Home</span></a>
+<a href="gallery.html"><span id="gallery">Gallery</span></a>
+<a href="sponsers.html"><span id="sponsers">Sponsers</span></a>
+<a href="contactus.html"><span id="contactus">Contact Us</span></a>
+</div>
+<div class="background">
+	<img src="gallerybg.jpg" height="1080" width="1920">
+</div>
+<div class="images1">
+	<center>
+	<a href="galleryweb/1.html" target="gallerywebframe"><img src="galleryweb/1.jpg" id="image"  /></a>
+	<a href="galleryweb/2.html" target="gallerywebframe"><img src="galleryweb/2.jpg" id="image" /></a>
+	<a href="galleryweb/3.html" target="gallerywebframe"><img src="galleryweb/3.jpg" id="image" /></a>
+	<a href="galleryweb/4.html" target="gallerywebframe"><img src="galleryweb/4.jpg" id="image" /></a>
+	<a href="galleryweb/5.html" target="gallerywebframe"><img src="galleryweb/5.jpg" id="image" /></a>
+	<a href="galleryweb/6.html" target="gallerywebframe"><img src="galleryweb/6.jpg" id="image" /></a>
+	<a href="galleryweb/7.html" target="gallerywebframe"><img src="galleryweb/7.jpg" id="image" /></a>
+	<a href="galleryweb/8.html" target="gallerywebframe"><img src="galleryweb/8.jpg" id="image" /></a>
+	<a href="galleryweb/9.html" target="gallerywebframe"><img src="galleryweb/9.jpg" id="image" /></a>
+	<a href="galleryweb/10.html" target="gallerywebframe"><img src="galleryweb/10.jpg" id="image" /></a>
+	<a href="galleryweb/11.html" target="gallerywebframe"><img src="galleryweb/11.jpg" id="image" /></a>
+</center>
+</div>
+<div class="images2">
+	<center>
+	<a href="galleryweb/12.html" target="gallerywebframe"><img src="galleryweb/12.jpg" id="image" ></a>
+	<a href="galleryweb/13.html" target="gallerywebframe"><img src="galleryweb/13.jpg" id="image" ></a>
+	<a href="galleryweb/14.html" target="gallerywebframe"><img src="galleryweb/14.jpg" id="image" ></a>
+	<a href="galleryweb/15.html" target="gallerywebframe"><img src="galleryweb/15.jpg" id="image" ></a>
+	<a href="galleryweb/16.html" target="gallerywebframe"><img src="galleryweb/16.jpg" id="image" ></a>
+	<a href="galleryweb/17.html" target="gallerywebframe"><img src="galleryweb/17.jpg" id="image" ></a>
+	<a href="galleryweb/18.html" target="gallerywebframe"><img src="galleryweb/18.jpg" id="image" ></a>
+	<a href="galleryweb/19.html" target="gallerywebframe"><img src="galleryweb/19.jpg" id="image" ></a>
+	<a href="galleryweb/20.html" target="gallerywebframe"><img src="galleryweb/20.jpg" id="image" ></a>
+	<a href="galleryweb/21.html" target="gallerywebframe"><img src="galleryweb/21.jpg" id="image" ></a>
+	<a href="galleryweb/22.html" target="gallerywebframe"><img src="galleryweb/22.jpg" id="image" height="140" width="180"></a>
+	</center>
+</div>
+<div class="frame">
+	<center>
+	<iframe name="gallerywebframe" src="galleryweb/1.html" width="60%" height="70%" frameborder="0" seamless scrolling="no"></iframe>
+</center>
+</div>
+</div>
+
+</body>
+</html>

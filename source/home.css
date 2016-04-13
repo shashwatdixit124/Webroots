@@ -1,0 +1,206 @@
+@font-face 
+
+{
+    font-family: "HACKED";
+    src: url("HACKED.ttf");
+}
+
+@font-face 
+
+{
+    font-family: "font";
+    src: url("font2.ttf");
+}
+
+* {
+top: 0px;
+left: 0px;
+margin: 0px;
+padding: 0px;
+}
+.logo {
+	position: fixed;
+	z-index: 10;
+	top: 2px;
+	left: 50%;
+	margin-left: -50px;
+	transition:transform 0.3s linear;
+	-webkit-transition:transform 0.3s linear;
+	-moz-transition:transform 0.3s linear;
+}
+.logo img{border-radius: 100px; border: 2px solid white;}
+.logo:hover {
+	transform:rotate(118deg);
+	-webkit-transform:rotate(118deg);
+	-moz-transform:rotate(118deg);
+}
+.navigation {
+	position: fixed;
+	background-color: black;
+	float: right;
+	height: 8%;
+	width: 100%;
+	z-index: 5;
+	opacity: 0.7;
+	position: fixed;
+	top: 18px;
+	left: 0px;
+	margin: 0px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-style: bold;
+	color: white;
+	padding-top: 10px;
+	
+}
+#home {
+	font-family: font;
+	text-align: center;
+	display: block;
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 5px;
+	height: 30px;
+	color: black;
+	float: left;
+	margin-left: 25px;
+	background-color: white 
+}
+#gallery {
+	font-family: font;
+	text-align: center;
+	display: block;
+	width: 200px;
+	padding: 5px;
+	height: 30px;
+	float: left;
+	margin-left: 25px;
+	color: white;
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	
+}
+#gallery:hover {
+	color: black;
+	background-color: white 
+}
+
+#sponsers {
+	font-family: font;
+	text-align: center;
+	display: block;
+	width: 200px;
+	padding: 5px;
+	height: 30px;
+	color: white;
+	float: left;
+	margin-left: 30%;
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+}
+#sponsers:hover {
+	color: black;
+	background-color: white 
+}
+
+#contactus {
+	font-family: font;
+	text-align: center;
+	display: block;
+	width: 200px;
+	padding: 5px;
+	height: 30px;
+	color: white;
+	float: left;
+	margin-left: 25px;
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+}
+#contactus:hover {
+	color: black;
+	background-color: white 
+}
+.background {
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	position: fixed;
+	z-index: -3;
+	width: 100%;
+}
+.tile1 {
+	position: relative;
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.tile12 {
+	position: relative;
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.tile2 {
+	position: relative;
+	z-index: 8;
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 92%;
+	background-color: black;
+	opacity: 0.8;
+}
+.tile3 {
+	position: relative;
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	background-color: white;
+}
+
+.text1 {
+	position: relative;
+	z-index: 5;
+	opacity: 0.8;
+	opacity: 0.7;
+	font-family: HACKED;
+	font-size: 100px;
+	text-align: center;
+	color: black;
+	margin-top: 110px;
+	margin-left: 65px;
+	
+}
+
+.text2 {
+	position: relative;
+	z-index: 5;
+	opacity: 0.9;
+	opacity: 0.9;
+	font-family: font;
+	font-size: 20px;
+	color: black;
+	top: 15px;
+	margin-left: 365px;
+	margin-right: 295px;
+}
+
+.video {
+	position: relative;
+	z-index: 5;
+	opacity: 1;
+	opacity: 1;
+	top: 50px;
+	margin-left: 425px;
+	margin-right: 225px;
+}
